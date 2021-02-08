@@ -17,7 +17,8 @@ module.exports = async () => {
       githubAccessToken: 'githubAccessToken'
     },
     phone: '1234567890',
-    email: 'abc@gmail.com'
+    email: 'abc@gmail.com',
+    isMember: true
   }
 
   const { userId } = await users.addOrUpdate(userData)
